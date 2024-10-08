@@ -131,6 +131,19 @@ export function ChatPanel({
 
         <div className="space-y-4 border-t bg-background px-4 py-2 shadow-lg sm:rounded-t-xl sm:border md:py-4">
           <PromptForm input={input} setInput={setInput} />
+          
+          {/* YouTube Embed */}
+          <div className="relative w-full h-0 pb-[56.25%] overflow-hidden"> 
+            <iframe 
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/VobEUnyeHfs" 
+              title="Mind Hacking Happiness YT channel embed" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   
+              allowFullScreen>
+            </iframe>
+          </div>
+
           <FooterText className="hidden sm:block" />
         </div>
       </div>
