@@ -66,11 +66,12 @@ export function Header() {
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
           {/* Replace with your brand logo or text */}
-          <Image
+          <img
             src="https://mindhackinghappiness.com/wp-content/uploads/cropped-MHHLogoNewSquareSmall-32x32.png"
             alt="Mind Hacking Happiness Logo"
-            width={32}
-            height={32}
+            width="32"
+            height="32"
+            style={{ display: 'block' }} // This ensures the image is displayed correctly
           />
         </a>
       
