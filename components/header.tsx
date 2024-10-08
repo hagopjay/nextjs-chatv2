@@ -55,7 +55,26 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
+
+      
       <div className="flex items-center justify-end space-x-2">
+         <div className="flex items-center justify-end space-x-2">
+        <a
+          target="_blank"
+          href="https://mindhackinghappiness.com/" // Replace with your link
+          rel="noopener noreferrer"
+          className={cn(buttonVariants({ variant: 'outline' }))}
+        >
+          {/* Replace with your brand logo or text */}
+          <Image
+            src="https://mindhackinghappiness.com/wp-content/uploads/cropped-MHHLogoNewSquareSmall-32x32.png"
+            alt="Mind Hacking Happiness Logo"
+            width={32}
+            height={32}
+          />
+        </a>
+      </div>
+        
         <a
           target="_blank"
           href="https://github.com/vercel/nextjs-ai-chatbot/"
@@ -75,6 +94,8 @@ export function Header() {
           <span className="sm:hidden">Deploy</span>
         </a>
       </div>
+
+      
     </header>
   )
 }
