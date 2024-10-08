@@ -58,7 +58,7 @@ export function Header() {
 
       
       <div className="flex items-center justify-end space-x-2">
-         <div className="flex items-center justify-end space-x-2">
+         
         <a
           target="_blank"
           href="https://mindhackinghappiness.com/" // Replace with your link
@@ -73,7 +73,7 @@ export function Header() {
             height={32}
           />
         </a>
-      </div>
+      
         
         <a
           target="_blank"
