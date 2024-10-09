@@ -75,7 +75,7 @@ export function Header() {
           />
         </a>
       
-        
+        /*
         <a
           target="_blank"
           href="https://github.com/vercel/nextjs-ai-chatbot/"
@@ -94,6 +94,8 @@ export function Header() {
           <span className="hidden sm:block">Deploy to Vercel</span>
           <span className="sm:hidden">Deploy</span>
         </a>
+        */
+        
       </div>
 
       
